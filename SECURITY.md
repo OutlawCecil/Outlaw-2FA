@@ -1,14 +1,14 @@
 ## SECURITY
-Wristkey is an offline, standalone app does not send any data to a server or backend, nor does it integrate with third-party services. All 2FA data is stored locally.
+Outlaw 2FA is an offline, standalone app does not send any data to a server or backend, nor does it integrate with third-party services. All 2FA data is stored locally.
 
 ### Current Security Features
 
 #### Wi-Fi transfers
-For Wi-Fi transfers, Wristkey starts two [HTTP servers](https://github.com/NanoHttpd/nanohttpd) (one on each device) on random ports on your local LAN (your Wi-Fi router connection, hotspot network etc). Devices are paired by scanning a QR code displayed on the receiving device. Data transfers are encrypted using public key encryption via [libsodium's crypto_box_seal()](https://libsodium.gitbook.io/doc/public-key_cryptography/sealed_boxes), which in turn uses [XSalsa20-Poly1305](https://libsodium.gitbook.io/doc/advanced/stream_ciphers/xsalsa20) and [X25519](https://en.wikipedia.org/wiki/Curve25519) key exchange. Data is encrypted on the sending device using the public key the receiver sends, and the receiver decrypts it using their secret key. Both HTTP servers are stopped as soon as the transfer is complete. 
+For Wi-Fi transfers, Outlaw 2FA starts two [HTTP servers](https://github.com/NanoHttpd/nanohttpd) (one on each device) on random ports on your local LAN (your Wi-Fi router connection, hotspot network etc). Devices are paired by scanning a QR code displayed on the receiving device. Data transfers are encrypted using public key encryption via [libsodium's crypto_box_seal()](https://libsodium.gitbook.io/doc/public-key_cryptography/sealed_boxes), which in turn uses [XSalsa20-Poly1305](https://libsodium.gitbook.io/doc/advanced/stream_ciphers/xsalsa20) and [X25519](https://en.wikipedia.org/wiki/Curve25519) key exchange. Data is encrypted on the sending device using the public key the receiver sends, and the receiver decrypts it using their secret key. Both HTTP servers are stopped as soon as the transfer is complete. 
 
 
 #### On-device encryption
-Wristkey uses file encryption to secure your data at rest, rather than storing it unencrypted. This means that data is stored in a scrambled form in a way that only the party with the key to decrypt it can view it. This is done by using [EncryptedSharedPreferences](https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences), the encrypted version of the popular [SharedPreferences](https://developer.android.com/training/data-storage/shared-preferences) library in Android.
+Outlaw 2FA uses file encryption to secure your data at rest, rather than storing it unencrypted. This means that data is stored in a scrambled form in a way that only the party with the key to decrypt it can view it. This is done by using [EncryptedSharedPreferences](https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences), the encrypted version of the popular [SharedPreferences](https://developer.android.com/training/data-storage/shared-preferences) library in Android.
 
 SharedPreferences (and all its variants) stores data in a key-value pair. All your data is stored in an array of [otpauth URI](https://github.com/google/google-authenticator/wiki/Key-Uri-Format)s which includes your usernames, secrets and parameters. Using otpauth URIs in an array makes rearranging them easy.
 
@@ -18,7 +18,7 @@ Data in EncryptedSharedPreferences is symmetrically encrypted using the [Advance
 
 To prevent data extraction, snooping, phishing and theft, make sure you delete any unencrypted JSON, PNG or JPG export files from your device storage once you're done importing / exporting them. Not doing so could lead to a compromising situation, such as social engineering attacks, or a thief bruteforcing their way into your online accounts by stealing your watch and trying to access the sensitive data on it via ADB.
 
-Every time you switch to a major version of Wristkey, make sure to completely uninstall and reinstall it. This helps in keeping the local SharedPreferences data format up-to-date.
+Every time you switch to a major version of Outlaw 2FA, make sure to completely uninstall and reinstall it. This helps in keeping the local SharedPreferences data format up-to-date.
 
 Use a password / PIN / pattern screen lock to prevent unauthorized access to your codes. This can be either via a single watch screen lock, or a combined app + screen lock for an added a layer of security. Avoid using Wear OS's Ambient Mode to prevent bystanders from peeking at your 2FA codes.
 
@@ -26,11 +26,11 @@ Use a password / PIN / pattern screen lock to prevent unauthorized access to you
 
 Security bugs are no laughing matter.
 
-Thank you for improving the security of Wristkey. I appreciate your efforts and
+Thank you for improving the security of Outlaw 2FA. I appreciate your efforts and
 responsible disclosure and will make every effort to acknowledge your
 contributions.
 
-Report security bugs by emailing the lead maintainer at wristkey@0x4f.in
+Report security bugs by emailing the lead maintainer at Outlaw 2FA@0x4f.in
 
 The lead maintainer should acknowledge your email within 48 hours, and will send a
 more detailed response indicating the next steps in handling
@@ -44,4 +44,4 @@ the module.
 ### Comments on this Policy
 
 If you have suggestions on how this policy could be improved, [please submit a
-feature request](https://github.com/4f77616973/Wristkey/issues).
+feature request](https://github.com/4f77616973/Outlaw 2FA/issues).
