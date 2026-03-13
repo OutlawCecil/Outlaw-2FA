@@ -22,7 +22,6 @@
         app:layout_constraintEnd_toEndOf="@+id/RoundTimeLeft"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-        <requestFocus />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -31,6 +30,7 @@
             android:layout_marginHorizontal="7.5dp"
             android:fitsSystemWindows="true"
             android:focusableInTouchMode="true"
+            android:paddingTop="28dp"
             android:orientation="vertical">
 
             <LinearLayout
@@ -38,7 +38,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="0dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginHorizontal="10dp"
                 android:orientation="vertical">
