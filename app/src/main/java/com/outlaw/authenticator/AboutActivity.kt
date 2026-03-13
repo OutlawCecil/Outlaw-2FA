@@ -14,8 +14,8 @@ import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.wearable.intent.RemoteIntent
-import wristkey.BuildConfig
-import wristkey.R
+import com.outlaw.authenticator.BuildConfig
+import com.outlaw.authenticator.R
 import java.util.*
 
 class AboutActivity : AppCompatActivity() {
