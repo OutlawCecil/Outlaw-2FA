@@ -1,23 +1,22 @@
 # Outlaw 2FA
 
-[![Wear OS](https://img.shields.io/badge/Made%20for-Wear%20OS%203.0-4285f4.svg?style=flat-square&logo=wear%20os)](https://wearos.google.com)
+[![Wear OS](https://img.shields.io/badge/Made%20for-Wear%20OS%203.0+-4285f4.svg?style=flat-square&logo=wear%20os)](https://wearos.google.com)
 [![License](https://img.shields.io/badge/License-MIT-purple?style=flat-square&logo=libreoffice)](LICENSE)
-[![Latest Version](https://img.shields.io/github/v/release/0x4f53/Wristkey?label=Engine%20Version&style=flat-square&logo=semver)](https://github.com/0x4f53/Wristkey)
+[![Version](https://img.shields.io/badge/Release-1.0--Outlaw-orange?style=flat-square&logo=semver)](https://github.com/YOUR-GITHUB-USERNAME/Outlaw-2FA)
 
 **Outlaw 2FA** is a high-performance, refined 2FA client for Wear OS. Designed for power users and IT professionals who need reliable, secure, and perfectly aligned access to their codes directly from their wrist.
 
-This project is a specialized fork of the excellent [Wristkey](https://github.com/0x4f53/Wristkey) project, optimized with custom UI layouts and expanded configuration options.
-
-<img src="screenshots/featuregraphicv2.png" alt="Outlaw 2FA mockup" width="750dp">
+This project is a specialized fork of the excellent [Wristkey](https://github.com/0x4f53/Wristkey) project, optimized with custom UI layouts, corrected vertical alignment, and a completely rebranded standalone identity.
 
 ---
 
 ## 🛠 THE OUTLAW ADVANTAGE (Modifications)
-*This version introduces several key improvements over the original source:*
+*This version introduces several key improvements over the original engine:*
 
-* **Optimized UI Alignment:** Fixed layout issues where OTP codes were rendered too low on circular watch faces.
-* **Expanded Settings:** Additional granular controls for display behavior and timeout settings.
-* **Refined UX:** Streamlined interface for faster access during login prompts.
+* **Fixed Vertical Alignment:** Resolved the "Empty Top Space" bug where layouts would push content down after returning from settings.
+* **Optimized Container Padding:** Replaced hard-coded margins with container-level padding for better stability on round watch faces.
+* **Complete Rebrand:** Migrated to the `com.outlaw.authenticator` namespace for side-by-side installation with other clients.
+* **Modern Build Stack:** Updated to Target SDK 33/34 for better compatibility with the latest Pixel Watch and Galaxy Watch hardware.
 
 ---
 
@@ -28,12 +27,6 @@ This project is a specialized fork of the excellent [Wristkey](https://github.co
 - **Military-Grade Encryption:** Local storage encrypted using **256-bit AES-GCM**.
 - **Encrypted Transfers:** WiFi transfers secured using **XSalsa20-Poly1305** and **X25519**.
 - **Wide Protocol Support:** TOTP and HOTP (up to SHA512 and 4-8 digits).
-- **Universal Design:** Fully responsive for both round and square Wear OS devices.
-
----
-
-## USAGE & DOCUMENTATION
-For detailed setup instructions, including how to import your existing accounts via ADB, please refer to the [Wiki](https://github.com/0x4f53/Wristkey/wiki).
 
 ---
 
