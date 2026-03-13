@@ -1,4 +1,4 @@
-package zeroxfourf.wristkey
+package com.outlaw.authenticator
 
 
 import android.annotation.SuppressLint
