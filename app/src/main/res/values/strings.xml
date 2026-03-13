@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Wristkey</string>
+    <string name="app_name">Outlaw 2FA</string>
 
     <string name="about_app">A secure cross-platform 2FA client.</string>
     <string name="donation_message">Your donations help me maintain my projects.\n\nTap on the button below to visit my donation page. If your watch has a browser, it may open in the watch browser.</string>
