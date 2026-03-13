@@ -8,7 +8,7 @@
 
 This project is a specialized fork of the excellent [Wristkey](https://github.com/0x4f53/Wristkey) project, optimized with custom UI layouts and expanded configuration options.
 
-<img src="screenshots/featuregraphicoutlaw.png" alt="Outlaw 2FA mockup" width="750dp">
+<img src="screenshots/featuregraphicv2.png" alt="Outlaw 2FA mockup" width="750dp">
 
 ---
 
