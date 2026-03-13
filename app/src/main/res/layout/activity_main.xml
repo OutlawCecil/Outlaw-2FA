@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context="zeroxfourf.wristkey.MainActivity"
+    tools:context="com.outlaw.authenticator.MainActivity"
     tools:deviceIds="wear">
 
     <androidx.core.widget.NestedScrollView
@@ -38,8 +38,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="35dp"
-                android:layout_marginBottom="55dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
                 android:layout_marginHorizontal="10dp"
                 android:orientation="vertical">
 
@@ -113,13 +113,13 @@
             <Button
                 android:id="@+id/addAccount"
                 app:icon="@drawable/ic_baseline_add_24"
-                style="@style/Wristkey.Button"
+                style="@style/Outlaw.Button"
                 android:text="Add data" />
 
             <Button
                 android:id="@+id/settings"
                 app:icon="@drawable/outline_settings_24"
-                style="@style/Wristkey.Button"
+                style="@style/Outlaw.Button"
                 android:text="Settings" />
 
             <View
