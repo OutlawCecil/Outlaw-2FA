@@ -14,7 +14,7 @@ android {
     }
 
     defaultConfig {
-        applicationId 'zeroxfourf.wristkey'
+        applicationId 'com.outlaw.authenticator'
         minSdk 23  // Wear OS 2.0 / Android 7.1.1
         targetSdkVersion 33  // Play Store requires API29+
         versionCode 33
