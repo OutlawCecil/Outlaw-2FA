@@ -30,7 +30,7 @@ Thank you for improving the security of Outlaw 2FA. I appreciate your efforts an
 responsible disclosure and will make every effort to acknowledge your
 contributions.
 
-Report security bugs by emailing the lead maintainer at OutlawCecil@gmail.com
+Report security bugs by emailing the lead maintainer at OutlawCecil at gmail.
 
 The lead maintainer should acknowledge your email within 48 hours, and will send a
 more detailed response indicating the next steps in handling
