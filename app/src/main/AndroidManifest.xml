@@ -25,26 +25,26 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:theme="@style/Wristkey">
+        android:theme="@style/Outlaw">
 
         <meta-data
             android:name="com.google.android.wearable.standalone"
             android:value="true" />
 
         <activity
-            android:name="zeroxfourf.wristkey.QRScannerActivity"
+            android:name="com.outlaw.authenticator.QRScannerActivity"
             android:label="@string/title_activity_bitwarden_jsonimport" />
 
         <activity
-            android:name="zeroxfourf.wristkey.FileImportActivity"
+            android:name="com.outlaw.authenticator.FileImportActivity"
             android:label="@string/title_activity_file_import" />
 
         <activity
-            android:name="zeroxfourf.wristkey.AdbImportActivity"
+            android:name="com.outlaw.authenticator.AdbImportActivity"
             android:label="@string/title_activity_adb_import" />
 
         <activity
-            android:name="zeroxfourf.wristkey.MainActivity"
+            android:name="com.outlaw.authenticator.MainActivity"
             android:label="@string/app_name"
             android:exported="true">
             <intent-filter>
@@ -54,43 +54,43 @@
 
         </activity>
         <activity
-            android:name="zeroxfourf.wristkey.QRCodeActivity"
+            android:name="com.outlaw.authenticator.QRCodeActivity"
             android:label="QR code" />
         <activity
-            android:name="zeroxfourf.wristkey.AddActivity"
+            android:name="com.outlaw.authenticator.AddActivity"
             android:label="Add account" />
 
         <activity
-            android:name="zeroxfourf.wristkey.WiFiTransferActivity"
+            android:name="com.outlaw.authenticator.WiFiTransferActivity"
             android:label="Wi-Fi transfer"
             android:exported="true" />
 
         <activity
-            android:name="zeroxfourf.wristkey.SendActivity"
+            android:name="com.outlaw.authenticator.SendActivity"
             android:label="Send" />
 
         <activity
-            android:name="zeroxfourf.wristkey.ReceiveActivity"
+            android:name="com.outlaw.authenticator.ReceiveActivity"
             android:label="Receive" />
 
         <activity
-            android:name="zeroxfourf.wristkey.ManualEntryActivity"
+            android:name="com.outlaw.authenticator.ManualEntryActivity"
             android:label="Add account" />
 
         <activity
-            android:name="zeroxfourf.wristkey.ExportActivity"
+            android:name="com.outlaw.authenticator.ExportActivity"
             android:label="Add account" />
 
         <activity
-            android:name="zeroxfourf.wristkey.AboutActivity"
+            android:name="com.outlaw.authenticator.AboutActivity"
             android:label="About" />
 
         <activity
-            android:name="zeroxfourf.wristkey.DonateActivity"
+            android:name="com.outlaw.authenticator.DonateActivity"
             android:label="About" />
 
         <activity
-            android:name="zeroxfourf.wristkey.SettingsActivity"
+            android:name="com.outlaw.authenticator.SettingsActivity"
             android:label="Settings" />
 
     </application>
