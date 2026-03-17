@@ -8,21 +8,9 @@
 
 ---
 
-## ✨ Comparisons
+## Why Upgrade?
 
-| Feature                  | WristKey   | Stratum       | OneAuth    | WristGuardian | 2FA Hub | Google Auth  | **Outlaw 2FA**      |
-|--------------------------|------------|---------------|------------|---------------|---------|--------------|---------------------|
-| Works on Phone/WearOS    | ✅yes     | ✅companion  | ✅cloud   | ✅yes        | ✅yes  | ✅mirror    | **✅Standalone**   |
-| 0 Ads/Nonsense           | ✅yes     | ✅yes        | ❌upsell  | ✅paid       | ✅yes  | ✅yes       | **✅Always**       |
-| Battery Life             | ✅good    | ✅Good          | Avg       | ✅Good         | Avg    | Avg         | **✅Optimized**    |
-| App Size                 | 13 MB     | ~15 MB       | 7 MB      | 5 MB         | 8 MB   | 10 MB       | **~5 MB**           |
-| Old Watches (2018+)      | ✅yes     | ✅yes        | ✅yes     | ✅yes        | ✅yes  | ✅yes       | **✅Faster**       |
-| New Watches (2025+)      | ❌risky   | ✅sideload   | ✅yes     | ✅yes        | ✅yes  | ✅yes       | **✅Perfect**      |
-| Tile Support             | ❌         | ❌            | ❌         | ❌            | ❌      | ❌           | **✅4 Codes**      |
-| Import Bitwarden/Aegis   | ❌manual  | QR/backup    | ❌ cloud   | ❌ manual     | ❌basic| QR only     | **✅Drag JSON**    |
-| Google Play Safe         | ❌2022    | ❌ delisted   | ✅yes     | ❌ paid       | ✅yes  | ✅yes       | **✅2026 Std**     |
-| Phone Sync               | ❌adb     | Companion req| Cloud req | None         | None   | Mirror      | **BT/WiFi**         |
-
+![Others vs Outlaw 2FA]([https://github.com/YOURNAME/Outlaw-2FA/blob/main/wristkey_comparison_v3.png](https://github.com/OutlawCecil/Outlaw-2FA/blob/70c796294736132bf1cc843f926b3aac85528030/ImgComparisonv1.0.png))
 
 ---
 
