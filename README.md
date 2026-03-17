@@ -8,7 +8,7 @@
 
 ---
 
-## Why Upgrade?
+## ✨ Why Upgrade?
 
 ![Comparison Table](https://github.com/OutlawCecil/Outlaw-2FA/blob/70c796294736132bf1cc843f926b3aac85528030/ImgComparisonv1.0.png)
 
