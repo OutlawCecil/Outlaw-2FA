@@ -1,22 +1,25 @@
 # Outlaw 2FA: Technical Roadmap
 
-## ✅ Done (2.0 Snappy)
-- Compose BOM 1.6.0‑rc01: 100% M3, adaptive ScalingLazyColumn (compact/expanded).
-- Heartbeat Engine: MainViewModel StateFlow + Handler <API30 (anti‑throttle).
-- SecurityManager: Tink AES256‑GCM‑HKDF, EncryptedDataStore, ghost WFS migration.
-- Sync: DataLayer (/vaultsync urgent), WiFiTransfer (localhost:9999).
-- Imports: ParserUtil IO (Bitwarden/Aegis/andOTP/otpauth‑migration).
-- OtpTileService: Top 4 codes, 30s refresh, vault‑bound.
-- Baselines: GMD API26 (32‑bit)/35 (64‑bit), ~20% startup.
-- APK: ~5 MB (−60% vs WristKey). min26/target35.
+## ✅ Done ( 1.0-beta )
+- Forked from WristKey
+- Cleaned up unused resources and consolidated some to remove them.
+- Fixed multiple bugs.
+- Modernization of general coding and libraries. Cleared many deprecated alerts and handled all reported coding issues.
+- Removed Wristkey ADB import which is nolonger supported or working.
+- Rewrite of all pages from Android View system (XML) to Jetpack Compose.
+- Created export system to backup codes in password-protected encrypted custom format.
+- Added support to import from my custom format.
+- Optimization pass to ensure main page is absolutely as fast loading as possible.
+- Implemented app "heartbeat" and reworked clock and  auth codes to use it. -Big battery saver!
+- Replaced "round device" setting with new 30 second "Global Countdown" timer.
+- Added full themes support for all pages and preconfigured 11 themes to choose from.
 
 ## 🔄 In Progress
-- Search: RemoteInput + MainViewModel.filter.
-- AccountCard: OTP copy/beep/HOTP ±.
-- NOTE: Goal is Wristkey feature base
+- Nicer Themes configuration.
+- Stabilization of everything after recent MAJOR rewrite.
+- Continue to move all strings to allow for easy translations
 
 ## ⏳ Upcoming planned changes
-- Theme Engine: Provide Built-in themes + allow importing / customizing
-- Keyguard: Biometric/PIN
-- Export: Vault QR/JSON
-- HCE: NFC tap‑to‑auth (Wear 5+)
+- Continued optimizations for speed (especially on the main page) and battery efficiency.
+- Increase target SDK incrementally. (at least 36 eventually)
+- Tile support (4 "quick codes")
