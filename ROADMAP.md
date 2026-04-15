@@ -14,6 +14,7 @@
 - Replaced "round device" setting with new 30 second "Global Countdown" timer.
 - Added full themes support for all pages and preconfigured 11 themes to choose from.
 - Disabled send/receive in wifi transfer (with indicator) if disconnected to wifi
+- SDK 33 -> 34
 
 ## 🔄 In Progress
 - Nicer Themes configuration.
