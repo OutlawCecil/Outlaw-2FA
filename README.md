@@ -20,7 +20,7 @@
 - Based off the baseline of Wristkey, but modernized, optimized, and build almost completely from scratch.
 - Full WearOS (watch) AND Android (phone) support.
 - Strong backwards compatibility for devices starting around 2017 (SDK 26) Android 8.0 Oreo.
-- Modernized for newer devices. Optimized for around 2023 (SDK 33) Android 13 Tiramisu. Working toward SDK 36.
+- Modernized for newer devices. Optimized for around 2026 (SDK 34) Android 14 Upside Down Cake. Working toward SDK 36.
 
 ---
 
