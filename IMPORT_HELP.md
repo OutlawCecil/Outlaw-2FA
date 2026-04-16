@@ -1,17 +1,17 @@
 # In-and-Outs of Imports
 Outlaw 2FA supports imports from other program's (unencrypted) exported files. File name and filetype do not matter as much as overall layout of the text. In general, Outlaw 2FA must find a secret to import otherwise it will fail to pull anything in. Secret + some sort of name is recommended minimum so you know where that secret belongs to.
 
-## ✅ Fully supported for importing
+## ✅ Fully supported formats
 - Aegis
 - BitWarden
 - andOTP
 - The only encrypted format supported is our own secured .o2fa format (exported from Outlaw 2FA)
 
-## ⚠️ Likely also supported for importing (untested)
+## ⚠️ Likely Supported (Untested)
 - Raivo OTP
 - Plain otpauth
 
-## 🔍 Possible partial support for importing (untested)
+## 🔍 Possible Partial Support (Untested)
 - 2FAuth / 2FAS backup
 - Authy
 
