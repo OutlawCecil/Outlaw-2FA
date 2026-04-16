@@ -7,6 +7,8 @@
 ## ✅ Done ( 0.7-beta )
 - Nicer Themes configuration. Seperated background color from accent color. And new menu.
 - Rewrite imports to ensure support for latest Bitwarden (csv & json), Aegis (json), andOPT (json). Filetype not required, only format. Likely also support Raivo OTP and plain otpauth. Chance of success with 2FAuth, 2FAS, and Authy as well.
+- Touched up exporting to better match importing.
+- Slight change in how themes apply to the main page. Will roll out to all others eventually.
 
 ## ✅ Done ( 0.6-beta )
 - SDK 33 -> 34 and updating of some dependencies
@@ -36,6 +38,7 @@
 - Forked from WristKey
 - Cleaned up unused resources and consolidated some to remove them.
 - Fixed multiple bugs.
+- Realized I should do more than fork & fix.
 
 
 ## ⏳ Upcoming planned changes
@@ -44,3 +47,4 @@
 - Tile support (4 "quick codes")
 - Slim down and consolidate imports & libraries
 - Auth groups
+- Slight theme adjustments for all screens
