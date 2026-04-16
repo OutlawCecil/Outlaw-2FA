@@ -1,22 +1,23 @@
 # Outlaw 2FA: Technical Roadmap
 
 ## 🔄 In Progress
-- Nicer Themes configuration.
 - Stabilization of everything after recent MAJOR rewrite.
 - Continue to move all strings to allow for easy translations
 
 ## ✅ Done ( 0.7-beta )
+- Nicer Themes configuration. Seperated background color from accent color. And new menu.
+- Rewrite imports to ensure support for latest Bitwarden (csv & json), Aegis (json), andOPT (json). Filetype not required, only format. Likely also support Raivo OTP and plain otpauth. Chance of success with 2FAuth, 2FAS, and Authy as well.
+
+## ✅ Done ( 0.6-beta )
 - SDK 33 -> 34 and updating of some dependencies
 - Revamped wifi transfer screens
 - Revamped export and allowed for unencrypted types
 - Revamped manual entry form
 
-## ✅ Done ( 0.6-beta )
-- Disabled send/receive in wifi transfer (with indicator) if disconnected to wifi
-
 ## ✅ Done ( 0.5-beta )
 - Replaced "round device" setting with new 30 second "Global Countdown" timer.
 - Added full themes support for all pages and preconfigured 11 themes to choose from.
+- Disabled send/receive in wifi transfer (with indicator) if disconnected to wifi
 
 ## ✅ Done ( 0.4-beta )
 - Optimization pass to ensure main page is absolutely as fast loading as possible.
