@@ -10,4 +10,3 @@
 - Tile support (4 "quick codes")
 - Slim down and consolidate imports & libraries
 - Auth groups support
-- Slight theme adjustments for all screens
