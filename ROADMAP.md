@@ -3,7 +3,6 @@
 ## 🔄 In Progress
 - Stabilization of everything after recent MAJOR rewrite.
 - Continue to move all strings to allow for easy translations
-- Increase security by hiding secret on edit screen and requiring device lock
 
 ## ⏳ Upcoming planned changes
 - Continued optimizations for speed (especially on the main page) and battery efficiency.
