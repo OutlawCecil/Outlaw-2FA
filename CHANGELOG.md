@@ -14,6 +14,7 @@ All notable changes to this project will be documented in this file as versions 
 - Touched up exporting to better match importing.
 - Slight change in how themes apply to the main page. Will roll out to all others eventually.
 - Increase security by hiding secret on edit screen and requiring device lock to view
+- Slight theme adjustments for all screens
 
 ## ✅ Done ( 0.6-beta )
 - SDK 33 -> 34 and updating of some dependencies
