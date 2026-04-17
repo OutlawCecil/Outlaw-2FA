@@ -42,11 +42,11 @@
 ---
 
 ## 🛠️ Utilized tools
-Kotlin One-Time Password for TOTP/HOTP generation
-ZXing for QR code generation
-Jetpack Compose including Compose UI, Material 3, and lifecycle-aware state collection.
-Kotlin Coroutines
-Android ViewModel + StateFlow
+- Kotlin One-Time Password for TOTP/HOTP generation
+- ZXing for QR code generation
+- Jetpack Compose including Compose UI, Material 3, and lifecycle-aware state collection.
+- Kotlin Coroutines
+- Android ViewModel + StateFlow
 
 ---
 
