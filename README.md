@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/License-MIT-purple?style=flat-square&logo=libreoffice)](LICENSE)
 [![Version](https://img.shields.io/badge/Release-1.0-orange?style=flat-square&logo=semver)](https://github.com/OutlawCecil/Outlaw-2FA/releases)
 
-**Built from the ground up! Lightning‑fast, modern, secure 2FA authenticator.** TOTP/HOTP codes from your wrist. Smaller, safer, snappier than ever.
+**Built from the ground up! Lightning‑fast, modern, secure 2FA authenticator. For Phone or Watch!** TOTP/HOTP codes from your wrist! Smaller, safer, snappier than ever.
 
 + Import, Manage, and Export from:
    - Bitwarden
