@@ -6,7 +6,5 @@
 
 ## ⏳ Upcoming planned changes
 - Continued optimizations for speed (especially on the main page) and battery efficiency.
-- Increase target SDK incrementally. (at least 36 eventually)
-- Tile support (4 "quick codes")
 - Slim down and consolidate imports & libraries
 - Auth groups support
