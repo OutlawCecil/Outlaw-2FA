@@ -7,6 +7,12 @@ All notable changes to this project will be documented in this file as versions 
 
 ...
 
+## ✅ Done ( 0.8-beta )
+- SDK 34 -> 37 and updating of some dependencies
+- Streamlined main page by moving account editing to a quick-access secondary page.
+- Added tile support for WearOS. Side note: Tiles can't update every 1 second, so it was best effort to keep it updated / correct.
+- Added widget support for phones. Select the account you want codes for. Resize as desired.
+- Added baseline profile for additional loadup speed gains
 
 ## ✅ Done ( 0.7-beta )
 - Nicer Themes configuration. Seperated background color from accent color. And new menu.
