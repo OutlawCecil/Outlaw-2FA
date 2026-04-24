@@ -4,23 +4,28 @@
 [![License](https://img.shields.io/badge/License-MIT-purple?style=flat-square&logo=libreoffice)](LICENSE)
 [![Version](https://img.shields.io/badge/Release-1.0-orange?style=flat-square&logo=semver)](https://github.com/OutlawCecil/Outlaw-2FA/releases)
 
-**Lightning‑fast, modern, secure 2FA authenticator completely rebuilt.** TOTP/HOTP codes from your wrist. Smaller, safer, snappier than ever.
+**Built from the ground up! Lightning‑fast, modern, secure 2FA authenticator.** TOTP/HOTP codes from your wrist. Smaller, safer, snappier than ever.
 
-+ Custom secure encrypted exports/backups .O2fa
-+ Import (and manage accounts) from Bitwarden, Aegis, OTPAuth, or .O2fa
++ Import, Manage, and Export from:
+   - Bitwarden
+   - Aegis
+   - OTPAuth
+   - O2fa (our own encryption)
 + App customization options
 + Full Translations support
 + Send to/from watch and phone freely
-+ Multi-theme support
++ Many theme combinations to choose from
 
 ---
 
 ## ✨ Why Upgrade?
 
-- Based off the baseline of Wristkey, but modernized, optimized, and build almost completely from scratch.
+- Based off the baseline of Wristkey, but modernized, optimized, and eventually completely rebuilt from scratch.
 - Full WearOS (watch) AND Android (phone) support.
 - Strong backwards compatibility for devices starting around 2017 (SDK 26) Android 8.0 Oreo.
-- Modernized for newer devices. Optimized for around 2026 (SDK 34) Android 14 Upside Down Cake. Working toward SDK 36.
+- Modernized for newer devices. Optimized for current and future devices (SDK 37).
+- No "create an account" BS. Offline and yours forever.
+- No ads, forever, guarenteed.
 
 ---
 
@@ -46,7 +51,7 @@
 - ZXing for QR code generation
 - Jetpack Compose including Compose UI, Material 3, and lifecycle-aware state collection.
 - Kotlin Coroutines
-- Android ViewModel + StateFlow
+- Android ViewModel + StateFlow used for speed in some areas.
 
 ---
 
