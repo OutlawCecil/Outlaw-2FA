@@ -1,21 +1,114 @@
-MIT License
-
+Outlaw 2FA Source-Available License
+Version 1.0
 Copyright (c) 2026 OutlawCecil
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Definitions
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+“Software” means all source code, object code, assets, documentation, and other materials
+made available in this repository.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+“Non-Commercial Use” means use, copying, modification, and distribution of the Software
+by an individual or organization where no fee, charge, subscription, sponsorship, bundled
+commercial benefit, or other monetary compensation is required, requested, or received in
+connection with the Software or any derivative work.
+
+“Commercial Use” means any use, copying, modification, distribution, hosting, sale,
+licensing, sublicensing, offering for a fee, offering as part of a paid product or service,
+or any other activity intended for or resulting in commercial advantage or monetary
+compensation.
+
+“Derivative Work” means any modified version, fork, adaptation, translation, enhancement,
+or other work based on or incorporating any part of the Software.
+
+2. License Grant for Non-Commercial Use
+
+Subject to the terms of this License, you are granted a worldwide, non-exclusive,
+non-transferable, revocable license to:
+
+- view, download, and compile the Software;
+- use the Software for personal, educational, evaluation, research, and other
+  Non-Commercial Use;
+- modify the Software for your own Non-Commercial Use; and
+- share original or modified copies of the Software only for Non-Commercial Use,
+  provided that:
+  (a) this License is included in full;
+  (b) all copyright, attribution, and notices are preserved; and
+  (c) you clearly mark any modifications you made.
+
+3. Commercial Use Requires Prior Written Permission
+
+You may not engage in any Commercial Use of the Software or any Derivative Work without
+the prior express written permission of the copyright holder.
+
+Commercial Use requiring prior written permission includes, but is not limited to:
+
+- selling the Software or any Derivative Work;
+- distributing binaries, APKs, bundles, or source code in exchange for payment,
+  donations tied to access, subscription fees, or other monetary compensation;
+- publishing the Software or a Derivative Work on any app store, marketplace, or
+  commercial distribution channel;
+- bundling the Software or a Derivative Work with paid services, products, or support;
+- using the Software or a Derivative Work in a business offering or for commercial gain.
+
+4. Commercial Licensing
+
+Commercial licenses may be offered separately by the copyright holder on negotiated terms,
+which may include royalties, revenue sharing, flat-fee licensing, attribution requirements,
+support terms, territory restrictions, or other agreed conditions.
+
+Nothing in this License grants any right to Commercial Use unless and until such separate
+written permission is provided.
+
+5. No Trademark License
+
+This License does not grant any right to use the name, branding, logos, package name,
+app listing text, icons, screenshots, or trademarks of the copyright holder except as
+necessary to provide attribution required by this License.
+
+6. Redistribution Conditions
+
+Any permitted redistribution for Non-Commercial Use must:
+
+- include a complete copy of this License;
+- preserve all copyright and attribution notices;
+- identify the distributor;
+- identify any modifications made; and
+- not impose additional restrictions inconsistent with this License for Non-Commercial Use.
+
+7. Reservation of Rights
+
+All rights not expressly granted under this License are reserved by the copyright holder.
+
+Without limitation, no patent rights, trademark rights, or rights for Commercial Use are
+granted by implication, estoppel, or otherwise.
+
+8. Termination
+
+This License terminates automatically if you violate any of its terms.
+
+Upon termination, you must cease all use and distribution of the Software and any
+Derivative Works until you obtain written permission from the copyright holder.
+
+9. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, TITLE, AND NON-INFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE
+COPYRIGHT HOLDER DISCLAIMS ALL WARRANTIES.
+
+10. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE
+FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR
+OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OF OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+11. Contact
+
+For commercial licensing requests, contact:
+OutlawCecil@gmail.com
+
+12. Governing Law
+
+This License shall be governed by the laws of the State of New Mexico, United States, excluding its conflict
+of law rules.
