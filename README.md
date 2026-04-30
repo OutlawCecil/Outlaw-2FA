@@ -1,7 +1,7 @@
 # Outlaw 2FA
 
 [![Wear OS](https://img.shields.io/badge/Made%20for-Wear%20OS%205.0+-4285f4.svg?style=flat-square&logo=android)](https://wearos.google.com)
-[![License](https://img.shields.io/badge/License-MIT-purple?style=flat-square&logo=libreoffice)](LICENSE)
+[![License](https://img.shields.io/badge/License-Custom%20Source--Available-purple?style=flat-square&logo=libreoffice)](LICENSE)
 [![Version](https://img.shields.io/badge/Release-1.0-orange?style=flat-square&logo=semver)](https://github.com/OutlawCecil/Outlaw-2FA/releases)
 
 **Built from the ground up! Lightning‑fast, modern, secure 2FA authenticator. For Phone or Watch!** TOTP/HOTP codes from your wrist! Smaller, safer, snappier than ever.
@@ -25,7 +25,7 @@
 - Strong backwards compatibility for devices starting around 2017 (SDK 26) Android 8.0 Oreo.
 - Modernized for newer devices. Optimized for current and future devices (SDK 37).
 - No "create an account" BS. Offline and yours forever.
-- No ads, forever, guarenteed.
+- No ads, forever, guaranteed.
 
 ---
 
@@ -39,7 +39,7 @@
 - EncryptedSharedPreferences with MasterKey for encrypted vault storage.
 - Android KeyguardManager for device-credential lock support.
 - Ghost migration from WristKey WFS.
-- LazySodium for asymmetric crypto/key exchange.
+- [LazySodium](https://github.com/terl/lazysodium-android) for asymmetric crypto/key exchange.
 - AES-GCM / AES-CBC + PBKDF2 custom encryption for backup/transfer payloads.
 - Sensitive clipboard handling for OTP copying.
 - Network/security checks for data transfers.
@@ -56,7 +56,7 @@
 ---
 
 ## Acknowledgements
-Lovingly inspired by [Wristkey](https://github.com/0x4f53/Wristkey) core.  
+Lovingly inspired by Wristkey core.  
 
 ---
 
