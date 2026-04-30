@@ -69,3 +69,6 @@ Lovingly inspired by [Wristkey](https://github.com/0x4f53/Wristkey) core.
 - ❌ Commercial use (app stores, sales, business use) requires prior written permission.
 
 See [LICENSE](LICENSE) for full terms. For commercial licensing, email OutlawCecil@gmail.com.
+
+[![GitHub Sponsors](https://img.shields.io/badge/sponsor-4285f4?style=flat-square&logo=github)](https://github.com/sponsors/OutlawCecil) or  
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow?style=flat-square&logo=buymeacoffee)](https://buymeacoffee.com/outlawcecil)
