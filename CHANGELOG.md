@@ -9,6 +9,7 @@ All notable changes to this project will be documented in this file as versions 
 - Fixed some large-scale annoying spacing issues that have been bugging me
 - Revised donation and license pages / info
 - Final polish pass through all files
+- Worked on imports/exports a bit more. Imports are lenient if it finds secrets at least.
 - Seeking beta testers to help find bugs and provide feedback
 
 ## ✅ Done ( 0.8-beta )
