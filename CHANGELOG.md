@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file as versions 
 - Initial public GitHub release.
 
 ## ✅ Done ( 0.9-beta )
-- Fixed some annoying spacing issues that have been bugging me
+- Fixed some large-scale annoying spacing issues that have been bugging me
 - Revised donation and license pages / info
 - Final polish pass through all files
 - Seeking beta testers to help find bugs and provide feedback
