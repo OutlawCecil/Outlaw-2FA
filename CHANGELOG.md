@@ -5,7 +5,10 @@ All notable changes to this project will be documented in this file as versions 
 ## 📈 Goal ( 1.0 ) soon-ish
 - Initial public GitHub release.
 
-...
+## ✅ Done ( 0.9-beta )
+- Fixed some annoying spacing issues that have been bugging me
+- Revised donation and license pages / info
+- Final polish pass through all files
 
 ## ✅ Done ( 0.8-beta )
 - SDK 34 -> 37 and updating of some dependencies
