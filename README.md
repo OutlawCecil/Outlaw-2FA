@@ -61,4 +61,11 @@ Lovingly inspired by [Wristkey](https://github.com/0x4f53/Wristkey) core.
 ---
 
 ## License
-MIT © 2026 Outlaw 2FA. Free to fork/use/sell
+
+**Source-available for non-commercial use only.**
+
+- ✅ Free to view, fork, modify, and use personally.
+- ✅ Free to share for non-commercial purposes.
+- ❌ Commercial use (app stores, sales, business use) requires prior written permission.
+
+See [LICENSE](LICENSE) for full terms. For commercial licensing, email OutlawCecil@gmail.com.
