@@ -14,7 +14,7 @@
 - Auth groups support. Possibly multiple "pages"?'
 - Considering option to change theme from colored outlines to using background colors with no/minimal outlines.
 
-## 🪳 Known bugs soon-to-be-fixed
+## 🪳 Known bugs soon-to-be-fixed (with v1.0)
 - Manual entry lands you on main page, maybe change to account edit screen
 - Padding adjustments, especially on round WearOS
 - Manual entry doesn't allow blank account, just duplicates issuer
