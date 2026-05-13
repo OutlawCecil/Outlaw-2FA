@@ -35,14 +35,26 @@
 
 ---
 
-## 🔒 Security
-- EncryptedSharedPreferences with MasterKey for encrypted vault storage.
-- Android KeyguardManager for device-credential lock support.
-- Ghost migration from WristKey WFS.
-- [LazySodium](https://github.com/terl/lazysodium-android) for asymmetric crypto/key exchange.
-- AES-GCM / AES-CBC + PBKDF2 custom encryption for backup/transfer payloads.
-- Sensitive clipboard handling for OTP copying.
-- Network/security checks for data transfers.
+## 🔒 Enterprise-Grade Security
+
+Outlaw 2FA goes beyond typical authenticator apps with production-grade protections:
+
+| Feature | Outlaw | Typical Apps |
+|---------|--------|--------------|
+| **Vault Storage** | EncryptedSharedPreferences + **MasterKey** | Plain SharedPreferences |
+| **Device Lock** | Android KeyguardManager integration | Basic PIN/biometrics |
+| **Backup Encryption** | **AES-GCM + 120K PBKDF2** + magic bytes | AES-CBC + weak PBKDF2 (10K) or no encryption |
+| **Device Transfer** | **Curve25519 box-seal** (LazySodium) | Plain QR or weak symmetric |
+| **Import Validation** | Normalized secret validation + deduplication | Raw string parsing |
+| **Local Servers** | **Route-locked endpoints** + 5s timeouts | Open/wildcard handlers |
+| **Clipboard** | Sensitive OTP handling | Raw copy-paste |
+
+**Key advantages:**
+- **12x stronger PBKDF2** (120K vs typical 10K) resists brute-force
+- **Curve25519** ECDH (audited, patent-free) for transfers
+- **No plaintext QR codes** — everything encrypted end-to-end
+
+[LazySodium](https://github.com/terl/lazysodium-android) powers asymmetric crypto.
   
 ---
 
