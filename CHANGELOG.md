@@ -2,8 +2,10 @@
 
 All notable changes to this project will be documented in this file as versions increase.
 
-## 📈 Goal ( 1.0 ) soon-ish
-- Initial public GitHub release.
+## 📈 Goal ( 1.0 ) Initial public GitHub release
+- Reduced in-memory cache of secrets (security hardening)
+- Added re-authorization upon export (security hardening)
+- Send/receive/transfer security once-over (security hardening)
 
 ## ✅ Done ( 0.9-beta )
 - Fixed some large-scale annoying spacing issues that have been bugging me
