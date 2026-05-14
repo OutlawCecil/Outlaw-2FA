@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file as versions 
 - Reduced in-memory cache of secrets (security hardening)
 - Added re-authorization upon export (security hardening)
 - Send/receive/transfer security once-over (security hardening)
+- Improved "import to watch" by allowing selection of acccounts
 
 ## ✅ Done ( 0.9-beta )
 - Fixed some large-scale annoying spacing issues that have been bugging me
